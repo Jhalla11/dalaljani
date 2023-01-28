@@ -2056,7 +2056,7 @@ def d(uid,pwx,tl):
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
 			'user-agent': pro}
-			lo = session.post('https://free.facebook.com/', cookies=cookies, headers=headers').text
+			lo = session.post('https://free.facebook.com/', cookies=cookies, headers=headers).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
