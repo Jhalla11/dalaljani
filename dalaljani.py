@@ -1155,7 +1155,7 @@ Y8888P  YP   YP YP   YP Y88888P Y88888P YP   YP
 [+]==============================================
 [+] CREATED BY   :ABU BAKAR
 [+] TOOL STATUS  :  RANDOM
-[+] TOOL VIRSION :  0.3
+[+] TOOL VIRSION :  0.2
 [+]=============================================="""
 
 xxxx = str(len(ugen))
